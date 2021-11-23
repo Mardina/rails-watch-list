@@ -1,0 +1,8 @@
+<%# Loop here %>
+<ol>
+<% @movies.each do |movie| %>
+  <li><%= movie.title.capitalize %> - <%= movie.overview %>
+  </li>
+
+<% end %>
+</ol>
